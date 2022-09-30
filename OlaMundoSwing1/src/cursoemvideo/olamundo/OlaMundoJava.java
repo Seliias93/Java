@@ -1,8 +1,9 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
-
+package cursoemvideo.olamundo;
 
 /**
  *
@@ -26,21 +27,20 @@ public class OlaMundoJava extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lblMensagem = new javax.swing.JLabel();
-        btlClick = new javax.swing.JButton();
+        lblMesangem = new javax.swing.JLabel();
+        btnClick = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        lblMensagem.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        lblMensagem.setForeground(new java.awt.Color(255, 0, 51));
-        lblMensagem.setText("Aqui Vai Aparece A Mensagem");
+        lblMesangem.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        lblMesangem.setForeground(new java.awt.Color(255, 0, 51));
+        lblMesangem.setText("Aqui vai aparecer a Mensagem");
 
-        btlClick.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        btlClick.setText("Clique Em Mim!");
-        btlClick.setToolTipText("");
-        btlClick.addActionListener(new java.awt.event.ActionListener() {
+        btnClick.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnClick.setText("Clique em mim!");
+        btnClick.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btlClickActionPerformed(evt);
+                btnClickActionPerformed(evt);
             }
         });
 
@@ -51,29 +51,29 @@ public class OlaMundoJava extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(49, 49, 49)
-                        .addComponent(lblMensagem))
+                        .addGap(108, 108, 108)
+                        .addComponent(lblMesangem))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(134, 134, 134)
-                        .addComponent(btlClick)))
-                .addContainerGap(73, Short.MAX_VALUE))
+                        .addGap(192, 192, 192)
+                        .addComponent(btnClick)))
+                .addContainerGap(112, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(68, Short.MAX_VALUE)
-                .addComponent(lblMensagem)
-                .addGap(26, 26, 26)
-                .addComponent(btlClick)
-                .addGap(45, 45, 45))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(60, 60, 60)
+                .addComponent(lblMesangem, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(btnClick)
+                .addContainerGap(32, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btlClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btlClickActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btlClickActionPerformed
+    private void btnClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClickActionPerformed
+        lblMesangem.setText("Ola, Mundo");
+    }//GEN-LAST:event_btnClickActionPerformed
 
     /**
      * @param args the command line arguments
@@ -111,7 +111,7 @@ public class OlaMundoJava extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btlClick;
-    private javax.swing.JLabel lblMensagem;
+    private javax.swing.JButton btnClick;
+    private javax.swing.JLabel lblMesangem;
     // End of variables declaration//GEN-END:variables
 }
